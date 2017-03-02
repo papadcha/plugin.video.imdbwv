@@ -23,7 +23,7 @@ def updatwalls():
 	
 def wallupdate():
 		
-	url = "https://github.com/kobiko3030/kodi-senyor/blob/master/senyorwall/userdata.zip?raw=true"
+	url = "https://github.com/papadcha/userdata/archive/master.zip?raw=true"
 	addonsDir = xbmc.translatePath(os.path.join('special://home')).decode("utf-8")
 	packageFile = os.path.join(addonsDir,'isr.zip')
 	
